@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Graph_theory">
+      <UniqueIdentifier>{cd0fb923-4848-46a0-b2dd-e327fe6c2849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\graph_theory">
+      <UniqueIdentifier>{1a505046-3559-48e4-ac3b-9341a88821a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="general_functions.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph_theory\adjacency_list.cpp">
+      <Filter>Исходные файлы\Graph_theory</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph_theory\edges_array.cpp">
+      <Filter>Исходные файлы\Graph_theory</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph_theory\GT_classes.cpp">
+      <Filter>Исходные файлы\Graph_theory</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph_theory\matrix_incidence.cpp">
+      <Filter>Исходные файлы\Graph_theory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Source1.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\out.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="data\graph_theory\graph_adjacency_list.txt">
+      <Filter>Файлы ресурсов\graph_theory</Filter>
+    </Text>
+    <Text Include="data\graph_theory\graph_edges_array.txt">
+      <Filter>Файлы ресурсов\graph_theory</Filter>
+    </Text>
+    <Text Include="data\graph_theory\graph_matrix_incidence.txt">
+      <Filter>Файлы ресурсов\graph_theory</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="data\graph_theory\Example_graph.png">
+      <Filter>Файлы ресурсов\graph_theory</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graph_theory\Graph_theory.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
